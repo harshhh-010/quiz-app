@@ -1,0 +1,304 @@
+{
+  "questions": [
+    {
+      "question": "What is the capital of France?",
+      "choices": ["Paris", "London", "Berlin", "Madrid"],
+      "answer": "Paris"
+    },
+    {
+      "question": "Which river is the longest in the world?",
+      "choices": ["Amazon", "Nile", "Yangtze", "Mississippi"],
+      "answer": "Nile"
+    },
+    {
+      "question": "What is the largest desert in the world?",
+      "choices": ["Sahara", "Gobi", "Kalahari", "Arctic"],
+      "answer": "Antarctic"
+    },
+    {
+      "question": "Which continent is the smallest by land area?",
+      "choices": ["Europe", "Australia", "Antarctica", "South America"],
+      "answer": "Australia"
+    },
+    {
+      "question": "What is the capital of Japan?",
+      "choices": ["Tokyo", "Kyoto", "Osaka", "Hiroshima"],
+      "answer": "Tokyo"
+    },
+    {
+      "question": "Which country has the largest population?",
+      "choices": ["India", "USA", "China", "Indonesia"],
+      "answer": "China"
+    },
+    {
+      "question": "What is the longest river in the United States?",
+      "choices": ["Mississippi", "Missouri", "Colorado", "Rio Grande"],
+      "answer": "Missouri"
+    },
+    {
+      "question": "Which is the largest ocean?",
+      "choices": ["Atlantic", "Indian", "Arctic", "Pacific"],
+      "answer": "Pacific"
+    },
+    {
+      "question": "What is the capital of Australia?",
+      "choices": ["Sydney", "Melbourne", "Canberra", "Perth"],
+      "answer": "Canberra"
+    },
+    {
+      "question": "Which mountain is the highest in the world?",
+      "choices": ["K2", "Kangchenjunga", "Mount Everest", "Lhotse"],
+      "answer": "Mount Everest"
+    },
+    {
+      "question": "What is the capital of Canada?",
+      "choices": ["Toronto", "Vancouver", "Montreal", "Ottawa"],
+      "answer": "Ottawa"
+    },
+    {
+      "question": "Which country is also known as the Land of the Rising Sun?",
+      "choices": ["China", "South Korea", "Japan", "Thailand"],
+      "answer": "Japan"
+    },
+    {
+      "question": "Which desert is the largest hot desert in the world?",
+      "choices": ["Gobi", "Kalahari", "Arabian", "Sahara"],
+      "answer": "Sahara"
+    },
+    {
+      "question": "What is the capital of Egypt?",
+      "choices": ["Cairo", "Alexandria", "Giza", "Luxor"],
+      "answer": "Cairo"
+    },
+    {
+      "question": "Which European country is known for its fjords?",
+      "choices": ["Sweden", "Finland", "Iceland", "Norway"],
+      "answer": "Norway"
+    },
+    {
+      "question": "What is the chemical symbol for water?",
+      "choices": ["H2O", "O2", "CO2", "NaCl"],
+      "answer": "H2O"
+    },
+    {
+      "question": "Who developed the theory of relativity?",
+      "choices": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Nikola Tesla"],
+      "answer": "Albert Einstein"
+    },
+    {
+      "question": "What planet is known as the Red Planet?",
+      "choices": ["Venus", "Mars", "Jupiter", "Saturn"],
+      "answer": "Mars"
+    },
+    {
+      "question": "What is the hardest natural substance on Earth?",
+      "choices": ["Gold", "Iron", "Diamond", "Platinum"],
+      "answer": "Diamond"
+    },
+    {
+      "question": "Who discovered penicillin?",
+      "choices": ["Marie Curie", "Alexander Fleming", "Isaac Newton", "Albert Einstein"],
+      "answer": "Alexander Fleming"
+    },
+    {
+      "question": "What is the speed of light?",
+      "choices": ["300,000 km/s", "150,000 km/s", "450,000 km/s", "600,000 km/s"],
+      "answer": "300,000 km/s"
+    },
+    {
+      "question": "What is the main gas found in the air we breathe?",
+      "choices": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+      "answer": "Nitrogen"
+    },
+    {
+      "question": "Which planet has the most moons?",
+      "choices": ["Earth", "Mars", "Jupiter", "Saturn"],
+      "answer": "Jupiter"
+    },
+    {
+      "question": "What is the smallest unit of life?",
+      "choices": ["Atom", "Molecule", "Cell", "Organism"],
+      "answer": "Cell"
+    },
+    {
+      "question": "What force keeps us on the ground?",
+      "choices": ["Magnetism", "Electromagnetism", "Gravity", "Friction"],
+      "answer": "Gravity"
+    },
+    {
+      "question": "What is the boiling point of water?",
+      "choices": ["90°C", "100°C", "110°C", "120°C"],
+      "answer": "100°C"
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "choices": ["Au", "Ag", "Pb", "Fe"],
+      "answer": "Au"
+    },
+    {
+      "question": "What is the main component of the sun?",
+      "choices": ["Oxygen", "Hydrogen", "Helium", "Nitrogen"],
+      "answer": "Hydrogen"
+    },
+    {
+      "question": "Who is known as the father of modern physics?",
+      "choices": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Nikola Tesla"],
+      "answer": "Isaac Newton"
+    },
+    {
+      "question": "What is the chemical formula for table salt?",
+      "choices": ["H2O", "NaCl", "CO2", "O2"],
+      "answer": "NaCl"
+    },
+    {
+      "question": "Who was the first President of the United States?",
+      "choices": ["George Washington", "Abraham Lincoln", "Thomas Jefferson", "John Adams"],
+      "answer": "George Washington"
+    },
+    {
+      "question": "What year did the Titanic sink?",
+      "choices": ["1910", "1912", "1914", "1916"],
+      "answer": "1912"
+    },
+    {
+      "question": "Who discovered America?",
+      "choices": ["Christopher Columbus", "Leif Erikson", "Marco Polo", "Ferdinand Magellan"],
+      "answer": "Christopher Columbus"
+    },
+    {
+      "question": "Who wrote the Declaration of Independence?",
+      "choices": ["George Washington", "Thomas Jefferson", "Benjamin Franklin", "John Adams"],
+      "answer": "Thomas Jefferson"
+    },
+    {
+      "question": "What ancient civilization built the pyramids?",
+      "choices": ["Romans", "Greeks", "Egyptians", "Mayans"],
+      "answer": "Egyptians"
+    },
+    {
+      "question": "Who was the first man to step on the moon?",
+      "choices": ["Buzz Aldrin", "Neil Armstrong", "Michael Collins", "Yuri Gagarin"],
+      "answer": "Neil Armstrong"
+    },
+    {
+      "question": "What war was fought between the North and South regions in the United States?",
+      "choices": ["Revolutionary War", "World War I", "Civil War", "Vietnam War"],
+      "answer": "Civil War"
+    },
+    {
+      "question": "What was the first successful English colony in America?",
+      "choices": ["Plymouth", "Jamestown", "Roanoke", "Savannah"],
+      "answer": "Jamestown"
+    },
+    {
+      "question": "Who was the leader of the Soviet Union during World War II?",
+      "choices": ["Vladimir Lenin", "Joseph Stalin", "Leon Trotsky", "Nikita Khrushchev"],
+      "answer": "Joseph Stalin"
+    },
+    {
+      "question": "Who was assassinated on November 22, 1963?",
+      "choices": ["Martin Luther King Jr.", "Robert Kennedy", "John F. Kennedy", "Malcolm X"],
+      "answer": "John F. Kennedy"
+    },
+    {
+      "question": "What ancient city was destroyed by a volcanic eruption in 79 AD?",
+      "choices": ["Pompeii", "Athens", "Rome", "Carthage"],
+      "answer": "Pompeii"
+    },
+    {
+      "question": "Who was the British Prime Minister during World War II?",
+      "choices": ["Winston Churchill", "Neville Chamberlain", "Clement Attlee", "David Lloyd George"],
+      "answer": "Winston Churchill"
+    },
+    {
+      "question": "What wall fell in 1989, symbolizing the end of the Cold War?",
+      "choices": ["Great Wall of China", "Berlin Wall", "Hadrian's Wall", "Western Wall"],
+      "answer": "Berlin Wall"
+    },
+    {
+      "question": "Who was known as the Maid of Orleans?",
+      "choices": ["Catherine the Great", "Queen Elizabeth I", "Joan of Arc", "Marie Antoinette"],
+      "answer": "Joan of Arc"
+    },
+    {
+      "question": "Which empire was ruled by Genghis Khan?",
+      "choices": ["Roman Empire", "Ottoman Empire", "Mongol Empire", "Persian Empire"],
+      "answer": "Mongol Empire"
+    },
+    {
+      "question": "Who wrote 'To Kill a Mockingbird'?",
+      "choices": ["Harper Lee", "Mark Twain", "Ernest Hemingway", "F. Scott Fitzgerald"],
+      "answer": "Harper Lee"
+    },
+    {
+      "question": "Who is the author of '1984'?",
+      "choices": ["George Orwell", "Aldous Huxley", "Ray Bradbury", "J.D. Salinger"],
+      "answer": "George Orwell"
+    },
+    {
+      "question": "Who wrote 'The Great Gatsby'?",
+      "choices": ["Ernest Hemingway", "F. Scott Fitzgerald", "John Steinbeck", "William Faulkner"],
+      "answer": "F. Scott Fitzgerald"
+    },
+    {
+      "question": "Who is the main character in 'Moby Dick'?",
+      "choices": ["Captain Ahab", "Ishmael", "Queequeg", "Starbuck"],
+      "answer": "Captain Ahab"
+    },
+    {
+      "question": "Who wrote 'Pride and Prejudice'?",
+      "choices": ["Jane Austen", "Charlotte Bronte", "Emily Bronte", "Louisa May Alcott"],
+      "answer": "Jane Austen"
+    },
+    {
+      "question": "Who is the author of 'The Catcher in the Rye'?",
+      "choices": ["J.D. Salinger", "Harper Lee", "George Orwell", "John Steinbeck"],
+      "answer": "J.D. Salinger"
+    },
+    {
+      "question": "What is the name of the hobbit in 'The Hobbit'?",
+      "choices": ["Frodo", "Bilbo", "Sam", "Gollum"],
+      "answer": "Bilbo"
+    },
+    {
+      "question": "Who wrote 'The Odyssey'?",
+      "choices": ["Homer", "Virgil", "Sophocles", "Euripides"],
+      "answer": "Homer"
+    },
+    {
+      "question": "Who wrote 'The Divine Comedy'?",
+      "choices": ["Dante Alighieri", "Geoffrey Chaucer", "John Milton", "Virgil"],
+      "answer": "Dante Alighieri"
+    },
+    {
+      "question": "Who wrote 'War and Peace'?",
+      "choices": ["Leo Tolstoy", "Fyodor Dostoevsky", "Anton Chekhov", "Alexander Pushkin"],
+      "answer": "Leo Tolstoy"
+    },
+    {
+      "question": "Who is the author of 'The Picture of Dorian Gray'?",
+      "choices": ["Oscar Wilde", "Charles Dickens", "George Eliot", "Thomas Hardy"],
+      "answer": "Oscar Wilde"
+    },
+    {
+      "question": "Who wrote 'Brave New World'?",
+      "choices": ["George Orwell", "Aldous Huxley", "Ray Bradbury", "Philip K. Dick"],
+      "answer": "Aldous Huxley"
+    },
+    {
+      "question": "Who wrote 'Crime and Punishment'?",
+      "choices": ["Leo Tolstoy", "Fyodor Dostoevsky", "Anton Chekhov", "Alexander Pushkin"],
+      "answer": "Fyodor Dostoevsky"
+    },
+    {
+      "question": "Who wrote 'Wuthering Heights'?",
+      "choices": ["Emily Bronte", "Charlotte Bronte", "Anne Bronte", "Jane Austen"],
+      "answer": "Emily Bronte"
+    },
+    {
+      "question": "Who wrote 'Jane Eyre'?",
+      "choices": ["Charlotte Bronte", "Emily Bronte", "Anne Bronte", "Jane Austen"],
+      "answer": "Charlotte Bronte"
+    }
+  ]
+}
