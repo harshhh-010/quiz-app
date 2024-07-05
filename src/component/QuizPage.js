@@ -10,7 +10,7 @@ const QuizPage = () => {
   const questions = useSelector((state) => state.questions) || [];
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswer] = useState({});
-  const [selectedAnswer, setSelectedAnswer] = useState('');
+  const [selectedAnswer, setSelectedAnswer] = useState("");
 
   useEffect(() => {
     // Select 15 random questions from the JSON data
@@ -25,17 +25,17 @@ const QuizPage = () => {
     setSelectedAnswer(answer);
     setAnswer({
       ...answers,
-      [currentQuestionIndex]: answer
+      [currentQuestionIndex]: answer,
     });
   };
 
   const handleNext = () => {
     if (currentQuestionIndex < questions.length - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
-      setSelectedAnswer('');
+      setSelectedAnswer("");
     } else {
       dispatch(setAnswers(answers));
-      navigate('/results');
+      navigate("/results");
     }
   };
 
@@ -52,22 +52,30 @@ const QuizPage = () => {
         <div className="answer-box h-[140px] ">
           {currentQuestion.choices.map((choice, i) => (
             <label key={i}>
-              <input className="input-option my-2 ml-5"
-              type="radio"
-              name={`question-${currentQuestionIndex}`}
-              value={choice}
-              checked={selectedAnswer === choice}
-              onChange={() => handleChange(choice)}/>
+              <input
+                className="input-option my-2 ml-5"
+                type="radio"
+                name={`question-${currentQuestionIndex}`}
+                value={choice}
+                checked={selectedAnswer === choice}
+                onChange={() => handleChange(choice)}
+              />
               {choice} <br />
             </label>
           ))}
           <div className="flex justify-around">
-            <button className="px-10 py-2  text-lg font-semibold  mt-5 bg-slate-950 rounded-full" onClick={handleNext}>
-              {currentQuestionIndex < questions.length - 1? "Next": "Submit Answers"}
+            <button
+              className="px-10 py-2  text-lg font-semibold  mt-5 bg-slate-950 rounded-full"
+              onClick={handleNext}
+            >
+              {currentQuestionIndex < questions.length - 1
+                ? "Next"
+                : "Submit Answers"}
             </button>
-            <p className="px-10 py-2  text-lg font-semibold  mt-5 bg-slate-950 rounded-full">{currentQuestionIndex+1}/{questions.length}</p>
+            <p className="px-10 py-2  text-lg font-semibold  mt-5 bg-slate-950 rounded-full">
+              {currentQuestionIndex + 1}/{questions.length}
+            </p>
           </div>
-          
         </div>
       </div>
     </div>

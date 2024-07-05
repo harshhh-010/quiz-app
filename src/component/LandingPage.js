@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { setUserInfo } from '../redux/action';
 import { useNavigate } from 'react-router-dom';
@@ -6,6 +7,17 @@ import { useNavigate } from 'react-router-dom';
 const LandingPage = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
+  const [maxDate, setMaxDate] = useState('');
+
+  useEffect(() => {
+    const today = new Date();
+    const day = String(today.getDate()).padStart(2, '0');
+    const month = String(today.getMonth() + 1).padStart(2, '0'); // January is 0
+    const year = today.getFullYear();
+
+    const formattedDate = `${year}-${month}-${day}`;
+    setMaxDate(formattedDate);
+  }, []);
 
   const [formData, setFormData] = useState({
     name: '',
@@ -69,7 +81,7 @@ const LandingPage = () => {
                 <div class="mb-5">
                   <label for="date" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Date of Birth </label>
 
-                  <input type="date" id="first name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" onChange={handleChange} required/>
+                  <input type="date" max={maxDate} id="first name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" onChange={handleChange} required/>
 
                 </div>
                 
